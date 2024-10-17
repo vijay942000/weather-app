@@ -1,0 +1,19 @@
+.search-con {
+    padding: 20px;
+}
+
+.or{
+    text-align: center;
+
+}
+.in-city{
+    margin: 20px 0;
+}
+
+.date{
+
+    text-decoration: underline;
+}
+#history{
+    display: none;
+}

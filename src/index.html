@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mx-auto lg:w-4/5 mt-10">
+    <p class="text-2xl font-extrabold text-white p-2 bg-blue-950 text-center">weather report</p>
+    <div class=" flex gap-5 p-4 bg-gray-300  flex-wrap lg:flex-nowrap ">
+
+
+
+    <div class="search-con flex flex-col glg:gap-0 mt-10   w-11/12 lg:w-2/6  items-center mx-auto ">
+
+
+        <p class="font-bold text-lg"> Enter a city </p>
+        <div class="border-gray-400 justify-center in-city flex gap-1 ">
+        <input id="input" type="text" placeholder="type city name" class="focus:outline-none border-gray-400 border-2 w-10/12 ">
+    
+        <select class=" w-4 " name="history" id="history">
+        </select>
+        </div>
+           
+        
+        <button id="search" class="  bg-blue-700  p-1 rounded-xl w-4/5 text-white font-bold ">search</button>
+
+        <p class="or mx-auto p-0 "> or</p>
+
+        <button id="curLoc" class="  bg-gray-700  p-1  rounded-xl w-4/5 text-white font-bold ">current location</button>
+
+
+
+    </div>
+
+
+
+    <div id="weather " class="w-full  text-white">
+        <div id="today" class="flex justify-between bg-blue-950 p-5" >
+
+        </div>
+        <div id="fourDays" class="flex   gap-2 justify-center md:gap-3 mt-5  flex-wrap">
+            
+        </div>
+
+
+
+    </div>
+
+</div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
